@@ -5,7 +5,7 @@ const Index = () => {
                 <h1 className="text-xl font-bold text-center mb-4">💑 Mariage Blais-Raymond 🌹</h1>
 
                 <p className="font-bold">Minute papillion...</p>
-                <p>Tu es beaucoup trop d'avance! Le site sera bientot prêt, mais soit encore un peu patient!</p>
+                <p>Tu es beaucoup trop d&apos;avance! Le site sera bientot prêt, mais soit encore un peu patient!</p>
             </section>
         </div>
     );
