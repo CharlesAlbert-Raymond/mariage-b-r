@@ -20,4 +20,50 @@
         background-size: cover;
         background-repeat: repeat;
     }
+
+    .main-title {
+        @apply sm:text-4xl text-2xl text-center font-serif; 
+    }
+
+    .title {
+        @apply text-2xl font-bold text-center;
+    }
+
+    .subtitle {
+        @apply text-2xl sm:text-4xl text-center font-serif;
+    }
+
+    .paragraph {
+        @apply text-base text-justify;
+    }
 }
+
+@font-face {
+    font-family: "Brittany";
+    src: url("/fonts/BrittanySignature.ttf");
+}
+
+@font-face {
+    font-family: "Aileron";
+    src: url("/fonts/Aileron-Regular.otf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Aileron";
+    src: url("/fonts/Aileron-Bold.otf");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Aileron";
+    src: url("/fonts/Aileron-Black.otf");
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: "Aileron";
+    src: url("/fonts/Aileron-Heavy.otf");
+    font-weight: 800;
+}
+

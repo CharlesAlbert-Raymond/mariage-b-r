@@ -4,8 +4,8 @@ export default {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
     theme: {
         fontFamily: {
-            arial: ["Arial", "sans-serif"],
-            comic: ["Comic Sans MS", "sans-serif"],
+            sans: ["Aileron", "sans-serif"],
+            serif: ["Brittany", "serif"],
         },
     },
   plugins: [],
