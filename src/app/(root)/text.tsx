@@ -19,9 +19,30 @@ const Text = () => {
             <p className="content__paragraph">
                 Le mariage aura lieu du 8 au 11 août prochain. La cérémonie se
                 déroulera le 9 août, en fin de journée. Veuillez vous référer à
-                l’horaire plus haut en cas de questionnement ou aux mariés
-                directement.{" "}
+                l’horaire ou aux mariés
+                directement en cas de questionnement.
             </p>
+
+            <ul>
+                <li className="content__list-item list-none">
+                    <span className="font-bold">
+                        {new Intl.NumberFormat("fr-CA", {
+                            style: "currency",
+                            currency: "CAD",
+                        }).format(350)}
+                    </span>{" "}
+                    par adulte
+                </li>
+                <li className="content__list-item list-none">
+                    <span className="font-bold">
+                        {new Intl.NumberFormat("fr-CA", {
+                            style: "currency",
+                            currency: "CAD",
+                        }).format(50)}
+                    </span>{" "}
+                    par enfant (moins de 18 ans)
+                </li>
+            </ul>
             <p className="content__paragraph self-start">
                 Voici l&apos;adresse du chalet:
             </p>
@@ -45,9 +66,9 @@ const Text = () => {
                 </Link>
             </div>
 
-            <p className="font-bold mt-4">
+            <p className="mt-4 font-bold">
                 Le plan des chambres sera disponible quelques temps avant
-                l&apos;événement. 
+                l&apos;événement.
             </p>
 
             <h2 className="content__subtitle">Couleurs Principales</h2>
