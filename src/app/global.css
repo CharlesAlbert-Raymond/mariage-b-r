@@ -21,21 +21,46 @@
         background-repeat: repeat;
     }
 
+    ul {
+        @apply list-disc pl-6;
+    }
+
     .main-title {
-        @apply sm:text-4xl text-2xl text-center font-serif; 
+        @apply text-center font-serif text-2xl sm:text-4xl;
     }
 
     .title {
-        @apply text-2xl font-bold text-center;
+        @apply text-center text-2xl font-bold;
     }
 
     .subtitle {
-        @apply text-2xl sm:text-4xl text-center font-serif;
+        @apply text-center font-serif text-2xl sm:text-4xl;
     }
 
     .paragraph {
-        @apply text-base text-justify;
+        @apply text-justify text-base;
     }
+
+    .content__container {
+        @apply flex flex-col items-center justify-center rounded-lg bg-white bg-opacity-40 px-6 py-4 max-w-screen-md;
+    }
+
+    .content__title {
+        @apply mb-4 text-center text-4xl font-bold;
+    }
+
+    .content__subtitle {
+        @apply mb-2 mt-6 text-center text-2xl self-start font-bold;
+    }
+
+    .content__paragraph {
+        @apply mb-4 text-justify text-base;
+    }
+
+    .content__list-item {
+        @apply mb-2 text-justify text-base;
+    }
+
 }
 
 @font-face {
@@ -66,4 +91,3 @@
     src: url("/fonts/Aileron-Heavy.otf");
     font-weight: 800;
 }
-
