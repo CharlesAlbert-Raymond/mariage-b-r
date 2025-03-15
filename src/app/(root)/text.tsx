@@ -19,8 +19,7 @@ const Text = () => {
             <p className="content__paragraph">
                 Le mariage aura lieu du 8 au 11 août prochain. La cérémonie se
                 déroulera le 9 août, en fin de journée. Veuillez vous référer à
-                l’horaire ou aux mariés
-                directement en cas de questionnement.
+                l’horaire ou aux mariés directement en cas de questionnement.
             </p>
 
             <ul>
