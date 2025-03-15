@@ -42,7 +42,7 @@
     }
 
     .content__container {
-        @apply flex flex-col items-center justify-center rounded-lg bg-white bg-opacity-40 px-6 py-4 max-w-screen-md;
+        @apply flex max-w-screen-md flex-col items-center justify-center rounded-lg bg-white bg-opacity-40 px-6 py-4;
     }
 
     .content__title {
@@ -50,7 +50,7 @@
     }
 
     .content__subtitle {
-        @apply mb-2 mt-6 text-center text-2xl self-start font-bold;
+        @apply mb-2 mt-6 self-start text-center text-2xl font-bold;
     }
 
     .content__paragraph {
@@ -60,7 +60,6 @@
     .content__list-item {
         @apply mb-2 text-justify text-base;
     }
-
 }
 
 @font-face {

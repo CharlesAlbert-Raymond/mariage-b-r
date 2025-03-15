@@ -1,3 +1,5 @@
+import { Link } from "~/components/button";
+
 const Text = () => {
     return (
         <section className="content__container">
@@ -13,9 +15,29 @@ const Text = () => {
                 partager ces moments spéciaux avec vous!
             </p>
 
+            <h2 className="content__subtitle">Dates et Lieu</h2>
+            <p className="content__paragraph">
+                Le mariage aura lieu du 8 au 11 août prochain. La cérémonie se
+                déroulera le 9 août, en fin de journée. Veuillez vous référer à
+                l’horaire plus haut en cas de questionnement ou aux mariés
+                directement.{" "}
+            </p>
+                <p className="content__paragraph self-start">
+                    Voici l&apos;adresse du chalet:
+                </p>
+            <div>
+                <p className="text-xl font-bold">1910 boulevard les neiges</p>
+                <p className="text-xl font-bold">St-Féréolles-les-neiges</p>
+                <p className="text-xl font-bold">QC, G0A 3R0</p>
+            </div>
+
+            <Link className="mt-4" href="/horaire">
+                Voir l&apos;horaire
+            </Link>
+
             <h2 className="content__subtitle">Couleurs Principales</h2>
-            <p className="self-start content__paragraph">
-                Nous remplirons cette section dans les prochains jours
+            <p className="content__paragraph self-start">
+                Nous remplirons cette section dans les prochains jours. 
             </p>
             {/*
             <p className="content__paragraph">
@@ -128,6 +150,13 @@ const Text = () => {
             </p>
             <p className="content__paragraph self-start">
                 Nous garderons un registre des paiements reçus de notre côté.
+            </p>
+
+            <h2 className="content__subtitle">Musique</h2>
+            <p className="content__paragraph">
+                Restez à l’affût nous metterons à disposition une méthode pour
+                que vous puissiez nous suggérer des chansons pour la soirée
+                dansante.
             </p>
         </section>
     );

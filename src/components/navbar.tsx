@@ -3,7 +3,7 @@ import { LeftArrow } from "./icons";
 
 const Navbar = () => {
     return (
-        <nav className="grid grid-cols-3 p-10">
+        <nav className="grid grid-cols-3 p-4 md:p-10">
             <div className="self-center">
                 <Link
                     href="/"
@@ -14,7 +14,7 @@ const Navbar = () => {
                 </Link>
             </div>
             <Link href="/">
-                <h1 className="mb-4 text-center font-serif text-xl">
+                <h1 className="mb-4 text-center font-serif md:text-xl">
                     Mariage Blais-Raymond
                 </h1>
             </Link>
