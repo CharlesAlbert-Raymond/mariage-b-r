@@ -22,22 +22,37 @@ const Text = () => {
                 l’horaire plus haut en cas de questionnement ou aux mariés
                 directement.{" "}
             </p>
-                <p className="content__paragraph self-start">
-                    Voici l&apos;adresse du chalet:
-                </p>
+            <p className="content__paragraph self-start">
+                Voici l&apos;adresse du chalet:
+            </p>
             <div>
                 <p className="text-xl font-bold">1910 boulevard les neiges</p>
                 <p className="text-xl font-bold">St-Féréolles-les-neiges</p>
                 <p className="text-xl font-bold">QC, G0A 3R0</p>
             </div>
+            <div className="mt-4 flex gap-4">
+                <Link
+                    className="mt-4"
+                    href="https://chalets-village.com/chalets/le-festif/"
+                    isExternal={true}
+                    variant="outline"
+                >
+                    Le chalet
+                </Link>
 
-            <Link className="mt-4" href="/horaire">
-                Voir l&apos;horaire
-            </Link>
+                <Link className="mt-4" href="/horaire">
+                    L&apos;horaire
+                </Link>
+            </div>
+
+            <p className="font-bold mt-4">
+                Le plan des chambres sera disponible quelques temps avant
+                l&apos;événement. 
+            </p>
 
             <h2 className="content__subtitle">Couleurs Principales</h2>
             <p className="content__paragraph self-start">
-                Nous remplirons cette section dans les prochains jours. 
+                Nous remplirons cette section dans les prochains jours.
             </p>
             {/*
             <p className="content__paragraph">
