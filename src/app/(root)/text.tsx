@@ -91,7 +91,7 @@ const Text = () => {
                         Pas besoin d&apos;acheter de nouveaux vêtements
                     </strong>{" "}
                     : Nous voulons que vous portiez ce que vous avez déjà, tant
-                    que cela reste classNamee.
+                    que cela reste classe.
                 </li>
                 <li className="content__list-item">
                     <strong>Costume et cravate non obligatoires</strong> : Vous
