@@ -1,4 +1,5 @@
 import { Link } from "~/components/button";
+import GoogleDriveVideo from "~/components/g-drive-video";
 
 const Text = () => {
     return (
@@ -6,6 +7,7 @@ const Text = () => {
             <h1 className="content__title">
                 Bienvenue sur notre site de mariage
             </h1>
+
             <p className="content__paragraph">
                 Ce site a été créé pour vous fournir toutes les informations
                 nécessaires concernant notre mariage, qui se déroulera sur
@@ -14,6 +16,11 @@ const Text = () => {
                 sur l&apos;hébergement et les repas. Nous sommes impatients de
                 partager ces moments spéciaux avec vous!
             </p>
+
+            <p className="content__paragraph font-bold">
+                Explication de l&apos;événement par les futurs mariés.
+            </p>
+            <GoogleDriveVideo fileId="1BxdILqkdzL9ex70Baejy8DqjQkknW1sS" />
 
             <h2 className="content__subtitle">Dates et Lieu</h2>
             <p className="content__paragraph">
