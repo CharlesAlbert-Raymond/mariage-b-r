@@ -81,7 +81,6 @@ const Text = () => {
             <p className="content__paragraph self-start">
                 Nous remplirons cette section dans les prochains jours.
             </p>
-            {/*
             <p className="content__paragraph">
                 Pour notre grand jour, nous avons choisi une palette de couleurs
                 qui reflète notre amour et l&apos;ambiance que nous souhaitons
@@ -89,22 +88,25 @@ const Text = () => {
             </p>
             <ul>
                 <li className="content__list-item">
-                    <strong>Rose Gold</strong> : Évoque la chaleur et le
-                    romantisme.
-                    <span className="inline-block size-4 bg-pink-500"></span>
+                    <span className="inline-block size-10 bg-[#F0CCC5]"></span>
+                    &nbsp;
+                    <strong>Rose Gold</strong>: Évoque la chaleur et le
+                    romantisme. (Difficile à reproduire à l&apos;écran, mais
+                    brillant)
                 </li>
                 <li className="content__list-item">
+                    <span className="inline-block size-10 border bg-[#FFFCF5]"></span>
+                    &nbsp;
                     <strong>Champagne</strong> : Apporte une touche
                     d&apos;élégance et de douceur.
-                    <span className="inline-block size-4 bg-pink-500"></span>
                 </li>
                 <li className="content__list-item">
+                    <span className="inline-block size-10 bg-[#0C006B]"></span>
+                    &nbsp;
                     <strong>Bleu marine</strong> : Symbolise la profondeur et la
                     sérénité.
-                    <span className="inline-block size-4 bg-pink-500"></span>
                 </li>
             </ul>
-            */}
 
             <h2 className="content__subtitle">Code Vestimentaire</h2>
             <p className="content__paragraph">
