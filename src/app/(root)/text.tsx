@@ -78,9 +78,6 @@ const Text = () => {
             </p>
 
             <h2 className="content__subtitle">Couleurs Principales</h2>
-            <p className="content__paragraph self-start">
-                Nous remplirons cette section dans les prochains jours.
-            </p>
             <p className="content__paragraph">
                 Pour notre grand jour, nous avons choisi une palette de couleurs
                 qui reflète notre amour et l&apos;ambiance que nous souhaitons
